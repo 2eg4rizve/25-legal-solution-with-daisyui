@@ -28,6 +28,37 @@
 
 <body>
 
+    <!-- nav -->
+    <section>
+        <div class="navbar bg-base-100 flex flex-col justify-center items-center md:flex-row ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn  ">
+                       <img src="./images/logo2.png" alt="" srcset="">
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center  lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn bg-[#B68C5A]">Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
     <!-- banner -->
     <section>
         <div class="hero min-h-screen" style="background-image: url('./images/banner.png');">
@@ -423,7 +454,7 @@
 
     <!-- footer -->
     <section>
-        <footer class="footer p-10 bg-base-200 text-base-content">
+        <footer class="footer p-10 bg-base-200 text-base-content bg-black text-white justify-between ">
             <div>
                 <img class="mb-[15px]" src="./images/logo2.png" alt="" srcset="">
                 <p>There are many variations of
@@ -454,13 +485,14 @@
 
                 <div class="flex">
                     <div class="border-[2px] w-[90%] font-extrabold">
-                        <input type="text"  placeholder="Email Address" class="input input-bordered input-primary w-full "  />
-                       
+                        <input type="text" placeholder="Email Address"
+                            class="input input-bordered input-primary w-full " />
+
                     </div>
                     <i class="fa-solid fa-square-arrow-up-right text-[50px] -ml-[2px]"></i>
                 </div>
 
-               
+
             </div>
         </footer>
 
